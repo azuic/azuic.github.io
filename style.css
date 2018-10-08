@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Black+Ops+One|Cabin+Sketch|Cinzel+Decorative|Fredericka+the+Great|Love+Ya+Like+A+Sister|Mr+Dafoe|Poiret+One|Ubuntu+Mono');
+
+head {
+  font-family: 'Poiret One', cursive;
+  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Mr Dafoe', cursive;
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Bad Script', cursive;
+  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Love Ya Like A Sister', cursive;
+  background-color: #fefefe;
+}
+
+body {
+  font-family: 'Poiret One', cursive;
+  font-size:20px;
+}
+
+.mainslash{
+  position:fixed;
+  top:50%;
+  left:50%;
+  width:500px;
+  color:#51a8dd;
+  font-size:100px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.mainnav {
+  font-size:50px;
+  position:fixed;
+  top:200px;
+  left:50%;
+  width:500px;
+  margin-left:-200px;
+}
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  text-decoration: none;
+  color:#222222;
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+  color:#8c8c8c;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 100px;
+  padding: 50px;
+  width: 100px;
+  line-height: 60px;
+}
+
+.slash {
+  color:#51a8dd;
+  font-size:50px;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.content {
+  margin: 50px;
+  width: 1500px;
+  font-size: 25px;
+  line-height: 2.0;
+  text-align: center;
+}
+
+a.colorblock1 {
+  background-color: #51a8dd;
+  color: #51a8dd;
+}
+a.colorblock1:hover {
+  background-color: transparent;
+  color: #222222;
+}
+
+a.colorblock2 {
+  background-color: #828282;;
+  color: #828282;;
+}
+a.colorblock2:hover {
+  background-color: transparent;
+  color: #222222;
+}
+
+a.colorblock3 {
+  background-color: #e83015;
+  color: #e83015;
+}
+a.colorblock3:hover {
+  background-color: transparent;
+  color: #222222;
+}
+
+a.colorblock4 {
+  background-color: #290f5a;
+  color: #290f5a;
+}
+a.colorblock4:hover {
+  background-color: transparent;
+  color: #222222;
+}
+
+a.colorblock5 {
+  background-color: #8a6bbe;
+  color: #8a6bbe;
+}
+a.colorblock5:hover {
+  background-color: transparent;
+  color: #222222;
+}
+
+a.colorblock6 {
+  background-color: #c73e3a;
+  color: #c73e3a;
+}
+a.colorblock6:hover {
+  background-color: transparent;
+  color: #222222;
+}
+
+a.colorblock7 {
+  background-color: #efbb24;
+  color: #efbb24;
+}
+a.colorblock7:hover {
+  background-color: transparent;
+  color: #222222;
+}
+
+a.colorblock8 {
+  background-color: #58b2dc;
+  color: #58b2dc;
+}
+a.colorblock8:hover {
+  background-color: transparent;
+  color: #222222;
+}
+
+path {
+  fill: transparent;
+  stroke: none;
+}
+
+p.vertical {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+p.verticalL {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  direction: rtl;
+}
+
+p.upright {
+  width:15px;
+  word-wrap: break-word;
+  line-height: 25px;
+  white-space: pre;
+}
+
+.hat {
+  text-decoration: overline;
+}
+
+.bottomline {
+  text-decoration: underline;
+}
+
+.doublelines {
+  text-decoration: underline overline;
+}
+
+.squeeze {
+  letter-spacing:-5px;
+  background-color:#222222;
+  color:#fefefe;
+}
+
+.stretch {
+  letter-spacing:24px;
+  text-decoration: underline;
+}
+
+.hshadow {
+  text-shadow: 2px 4px #51a8dd;
+}
+
+.hshadow2 {
+  text-shadow: 2px 6px #51a8dd;
+}
+
+.hshadow3 {
+  text-shadow: 2px 12px #51a8dd;
+}
+
+.fontsize1 {
+  font-size: 80px;
+}
+.fontsize2 {
+  font-size: 70px;
+}
+.fontsize3 {
+  font-size: 60px;
+}
+.fontsize4 {
+  font-size: 50px;
+}
+.fontsize5 {
+  font-size: 40px;
+}
+.fontsize6 {
+  font-size: 30px;
+}
+.fontsize7 {
+  font-size: 20px;
+}
+.fontsize8 {
+  font-size: 10px;
+}
